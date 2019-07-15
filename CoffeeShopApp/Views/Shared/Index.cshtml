@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Welcome to the Grand Circus Coffee Shop!</h2>
+
+<p></p>
+<p></p>
+<h4>Please register or sign in:</h4>
+
+<div>
+    <p>To register click below:</p>
+     @Html.ActionLink("Register", "RegisterView" , new { @class = "btn btn-default btn-large" })
+
+    <p>To sign in click below:</p>
+    @Html.ActionLink("Sign in", "null", new { @class = "btn btn-default btn-large" })
+</div>
